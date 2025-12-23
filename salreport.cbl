@@ -27,3 +27,7 @@
            05  ws-page-number               pic 9(3)   value 1.
            05  ws-line-counter              pic 9(3)   value 0.
            05  ws-date                      pic x(6).
+           05  ws-date-x redefines ws-date.
+               10  ws-yr-date               pic 99.
+               10  ws-mo-date               pic 99.
+               10  ws-day-date              pic 99.
