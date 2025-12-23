@@ -37,4 +37,9 @@
                 value 'TOTAL OF GROUPS OF FIVE RECORDS'.
            05  filler                       pic x(09) 
                 value 'PAGE NO. '.
-           
+           05  hl-page-ct-out               pic zzz9.
+           05  filler                       pic x(69) value spaces.
+       01  dl-detail-line.
+           05  filler                       pic x(10) value spaces.
+           05  dl-name-out                  pic x(20).
+           05  filler                       pic x(10) value spaces.
