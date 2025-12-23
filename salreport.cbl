@@ -31,3 +31,10 @@
                10  ws-yr-date               pic 99.
                10  ws-mo-date               pic 99.
                10  ws-day-date              pic 99.
+       01  hl-heading-1.
+           05  filler                       pic x(16) value spaces.
+           05  filler                       pic x(35)
+                value 'TOTAL OF GROUPS OF FIVE RECORDS'.
+           05  filler                       pic x(09) 
+                value 'PAGE NO. '.
+           
